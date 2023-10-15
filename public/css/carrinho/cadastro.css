@@ -1,0 +1,24 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    /* height: 700px; */
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+#codigo-produto{
+    display: none;
+}
+
+
+/* .div-list{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+} */

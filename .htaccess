@@ -1,0 +1,20 @@
+
+<IfModule mod_rewrite.c> #url amigáveis
+
+    RewriteEngine On
+
+    RewriteBase /lista_supermercado
+    # RewriteBase / #Esse aqui e para produção
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-l
+
+    # Pega tudo o que foi escrito na url, quando acesso esse diretório e mando para o default, 
+    # e junto um parâmetro contendo tudo o que estava na url
+    RewriteRule ^(.+)$ index.php?url=$1 [QSA,L,NC]
+  
+  
+</IfModule>
+
+
