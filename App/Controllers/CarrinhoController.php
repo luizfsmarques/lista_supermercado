@@ -13,6 +13,7 @@ class CarrinhoController extends Controller
     //vai faltar adicionar dados para compras em litro
     //vai faltar ajeitar a formatacao automatica no input, para cada tipo de medida... 
     //vai faltar altualizar informacoes do carrinhpo - como quantidade...
+    //ajeitar cadastro carrinho nos valores gramas e usabilidade
 
     public function exibe()
     {   

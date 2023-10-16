@@ -21,7 +21,7 @@ class LoginController extends Controller
             $_SESSION['logado'] = true;
             $_SESSION['email'] = $_POST['email'];
 
-            $this->redirect( '/produtos' );
+            $this->redirect( '/carrinho' );
 
         }
         else

@@ -63,9 +63,6 @@ abstract class Controller
         }
     }
 
-
-
-
     public function redirect($view)
     {
         header("Location:" . APP_HOST . $view);
@@ -80,13 +77,6 @@ abstract class Controller
         header("Location:".APP_HOST."/");
 
     }
-
-
-    // public function mensagem_sucesso()
-    // {
-    //     $_SESSION['mensagem_sucesso'] = true;
-    // }
-
 
     public function setViewVar($varName, $varValue)
     {
